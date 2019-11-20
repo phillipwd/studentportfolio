@@ -1,0 +1,26 @@
+header{
+    height: 50px;
+    background-color: brown;
+    color: black;
+    display: flex;
+    
+}
+
+body{
+    background-color: aqua
+    ;
+}
+
+.bio1{
+    display: flex;
+    align-items: flex-start; 
+}
+
+.b1{
+    width: 70%;
+    background-color: blue;
+    margin: 50px;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
