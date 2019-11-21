@@ -1,26 +1,69 @@
 header{
-    height: 50px;
+    height: 80px;
+    width: 960px;
+    margin: 0 auto;
     background-color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
-    display: flex;
-    
+    border-bottom: solid black 1px;
+    position: relative;
+    /* display: flex;  */
+    /* align-items: stretch;      */
 }
 
 body{
-    background-color: aqua
-    ;
+    background-color: aqua;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.left{
+    width: 300px;
+    background-color: rgb(31, 31, 168);
+    position: absolute;
+    left: 20 px;
+    margin: 7, 0;
+}
+.about h1{
+    padding: 10px, 0px;
+}
+.right{
+    width: 400px;
+    background-color: rgb(31, 168, 72);
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+
+}
+/* .center{ */
+    /* right: 49% }*/
+.about{
+    height: 40px;
+    border-bottom: solid black 1px;
 }
 
 .bio1{
     display: flex;
     align-items: flex-start; 
+    /* margin: 16px; */
 }
 
 .b1{
-    width: 70%;
+    width: 960px;
     background-color: blue;
-    margin: 50px;
+    margin: 0 auto;
     /* display: flex; */
     /* justify-content: center; */
 
+}
+.rest{
+    padding-bottom:20px;
+    margin: 0 20px;
+}
+.footer{
+    position: sticky;
+    background-color: gray;
+    width: 960px;
+    margin: 0 auto;
+    border-top: solid, green, 20px;
 }
