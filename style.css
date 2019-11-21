@@ -59,6 +59,8 @@ body{
     width: 960px;
     background-color: blue;
     margin: 0 auto;
+    position: relative;
+    top: 100px;
     /* display: flex; */
     /* justify-content: center; */
 
@@ -68,10 +70,12 @@ body{
     margin: 0 20px;
 }
 .footer{
-    position: sticky;
+    position: fixed;
+    bottom: 0%;
     background-color: gray;
     margin: 0 auto;
     border-top: solid green 2px;
+    width: 100%;
 }
 .footercontent{
     display: flex;
