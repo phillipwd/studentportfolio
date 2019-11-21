@@ -1,6 +1,6 @@
 header{
     height: 80px;
-    width: 960px;
+    /* width: 960px; */
     margin: 0 auto;
     background-color: brown;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -10,6 +10,16 @@ header{
     /* display: flex;  */
     /* align-items: stretch;      */
 }
+.headcontent{
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+
+}
 
 body{
     background-color: aqua;
@@ -18,7 +28,7 @@ body{
 .left{
     width: 300px;
     background-color: rgb(31, 31, 168);
-    position: absolute;
+    /* position: absolute; */
     left: 20 px;
     margin: 7, 0;
 }
@@ -30,10 +40,7 @@ body{
     background-color: rgb(31, 168, 72);
     display: flex;
     justify-content: space-around;
-    position: absolute;
-    right: 8px;
-    bottom: 8px;
-
+    margin-top: 40px;
 }
 /* .center{ */
     /* right: 49% }*/
@@ -63,7 +70,10 @@ body{
 .footer{
     position: sticky;
     background-color: gray;
-    width: 960px;
     margin: 0 auto;
-    border-top: solid, green, 20px;
+    border-top: solid green 2px;
+}
+.footercontent{
+    display: flex;
+    justify-content: center;
 }
