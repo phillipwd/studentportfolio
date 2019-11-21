@@ -1,15 +1,29 @@
+html{
+    background-color: #dddddd;
+    
+}
+
 header{
     height: 80px;
     /* width: 960px; */
     margin: 0 auto;
-    background-color: brown;
+    background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    border-bottom: solid black 1px;
+    color: #ffffff;
+    border-bottom: solid #cccccc 3px;
     position: relative;
     /* display: flex;  */
     /* align-items: stretch;      */
 }
+.name{
+    padding: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #777777;
+}
+
 .headcontent{
     width: 960px;
     height: 80px;
@@ -22,22 +36,25 @@ header{
 }
 
 body{
-    background-color: aqua;
+    /* background-color: #ffffff; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* position: relative;
+    top: 50px; */
 }
 .left{
-    width: 300px;
-    background-color: rgb(31, 31, 168);
+    width: 325px;
+    background-color: #4aaaa5;
     /* position: absolute; */
     left: 20 px;
     margin: 7, 0;
 }
 .about h1{
-    padding: 10px, 0px;
+    padding: 20px 0px;
+    margin: 20px;
 }
 .right{
     width: 400px;
-    background-color: rgb(31, 168, 72);
+    background-color: #ffffff;
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
@@ -45,19 +62,19 @@ body{
 /* .center{ */
     /* right: 49% }*/
 .about{
-    height: 40px;
-    border-bottom: solid black 1px;
+    height: 80px;
+    border-bottom: solid #dddddd 3px;
 }
 
 .bio1{
     display: flex;
     align-items: flex-start; 
-    /* margin: 16px; */
+    color: #777777;
 }
 
 .b1{
     width: 960px;
-    background-color: blue;
+    background-color: #ffffff;
     margin: 0 auto;
     position: relative;
     top: 100px;
@@ -68,13 +85,14 @@ body{
 .rest{
     padding-bottom:20px;
     margin: 0 20px;
+    color: #777777
 }
 .footer{
     position: fixed;
     bottom: 0%;
-    background-color: gray;
+    background-color: #666666;
     margin: 0 auto;
-    border-top: solid green 2px;
+    border-top: solid #4aaaa5 5px;
     width: 100%;
 }
 .footercontent{
