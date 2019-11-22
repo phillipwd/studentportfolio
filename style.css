@@ -99,9 +99,15 @@ body{
 }
 
 .input[type=submit]{
+    background-color: #4aaaa5;
     
 }
-.form-submit-button{
-    background-color: #4aaaa5;
-
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+.project{
+    margin: 15px 25px;
 }
