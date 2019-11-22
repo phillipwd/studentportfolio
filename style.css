@@ -90,7 +90,7 @@ body{
     bottom: 0%;
     background-color: #666666;
     margin: 0 auto;
-    border-top: solid #4aaaa5 5px;
+    border-top: solid #4aaaa5 8px;
     width: 100%;
 }
 .footercontent{
@@ -110,6 +110,7 @@ body{
 }
 .project{
     margin: 15px 25px;
+    background-color: #4aaaa5;
 }
 .portb1{
     width: 960px;
@@ -119,3 +120,4 @@ body{
     /* top: 100px; */
     
 }
+/* .imgbox{} */
